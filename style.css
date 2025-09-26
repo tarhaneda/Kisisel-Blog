@@ -1,0 +1,69 @@
+/* Genel ayarlar */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  margin: 0;      
+  padding: 0;     
+  background: #f9f9f9; 
+  color: #333;    
+  line-height: 1.6; 
+}
+
+/* Üst Menü */
+header {
+  background: #ffb6c1; 
+  padding: 10px 0;
+}
+nav ul {
+  list-style: none; 
+  display: flex;    
+  justify-content: flex-start; 
+  gap: 20px;        
+  padding: 0;
+  margin: 0;
+  margin-left:20px;
+}
+nav a {
+  text-decoration: none; 
+  color: white;         
+  font-weight: bold;    
+}
+nav a:hover {
+  color: #333;
+}
+
+/* Ana Sayfa (Hero kısmı) */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #ffe4e1, #fff0f5); 
+}
+.profile-img {
+  width: 300px;        
+  border-radius: 15px;  
+  margin-bottom: 15px;
+  border: 3px solid #ffb6c1; 
+}
+.highlight {
+  color: #ff69b4; 
+}
+
+/* Bölümler */
+section {
+  padding: 40px 20px;       
+  max-width: 800px;         
+  margin: auto;            
+}
+section h2 {
+  color: #ff69b4;           
+  margin-bottom: 15px;
+}
+
+/* Alt Bilgi (Footer) */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #ffb6c1; 
+  color: white;
+  margin-top: 30px;
+}
+
